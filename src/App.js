@@ -8,7 +8,6 @@ import 'antd/dist/antd.css'
 // Actions
 import {fetchNews} from "./actions";
 
-
 //Components
 import Home from "./components/Home";
 import NavigationBar from "./components/NavigationBar";

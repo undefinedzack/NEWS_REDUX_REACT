@@ -1,11 +1,5 @@
 import axios from "axios";
 
-export const increment = () => {
-  return {
-    type: 'INCREMENT'
-  }
-}
-
 export const storeNews = (payload) => {
   return {
     type: 'storeNews',
