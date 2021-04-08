@@ -7,7 +7,13 @@ const BookmarkedNews = () => {
   if (Object.keys(news).length !== 0) {
     return (
       <>
+
         <div className={'container mt-4'}>
+          <div className={'row'}>
+            <div className={'col-12 text-center'}>
+              <p style={{fontSize: '35px', color: '#a263ff'}}>Saved Ones!</p>
+            </div>
+          </div>
           <div className={'row'}>
             {
               news.map((article) => {

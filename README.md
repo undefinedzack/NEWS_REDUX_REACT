@@ -27,6 +27,7 @@
 <img src="images/3.jpg"/>
 <img src="images/4.jpg"/>
 
+![img.png](img.png)
 ## Issues
 
 Since newsapi.org doesn't allow requests from different sources other than localhost in a "developer account".
